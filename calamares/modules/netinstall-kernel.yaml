@@ -1,11 +1,11 @@
-- name: "Linux-xanmod kernel - installed by default"
-  description: "Installs the linux-xanmod kernel"
+- name: "Linux-zen kernel - installed by default"
+  description: "Installs the linux-zen kernel"
   critical: false
   hidden: false
   selected: false
   packages:
-    - linux-xanmod
-    - linux-xanmod-headers
+    - linux-zen
+    - linux-zen-headers
 - name: "Linux kernel"
   description: "Installs the latest linux kernel"
   critical: false
@@ -32,14 +32,14 @@
   packages:
     - linux-hardened
     - linux-hardened-headers
-- name: "Linux-zen kernel"
-  description: "Installs the linux-zen kernel"
+- name: "Linux-xanmod kernel"
+  description: "Installs the linux-xanmod kernel"
   critical: false
   hidden: false
   selected: false
   packages:
-    - linux-zen
-    - linux-zen-headers
+    - linux-xanmod
+    - linux-xanmod-headers
 - name: "Linux-xanmod-edge kernel"
   description: "Installs the linux-xanmod-edge kernel"
   critical: false
