@@ -1,11 +1,3 @@
-- name: "Linux-zen kernel - installed by default"
-  description: "Installs the linux-zen kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-zen
-    - linux-zen-headers
 - name: "Linux kernel"
   description: "Installs the latest linux kernel"
   critical: false
@@ -32,6 +24,30 @@
   packages:
     - linux-hardened
     - linux-hardened-headers
+- name: "Linux-zen kernel"
+  description: "Installs the linux-zen kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
+    - linux-zen-headers
+- name: "Linux-rt kernel"
+  description: "Installs the linux-rt kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-rt
+    - linux-rt-headers
+- name: "Linux-rt-lts kernel"
+  description: "Installs the linux-rt-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-rt-lts
+    - linux-rt-lts-headers
 - name: "Linux-xanmod kernel"
   description: "Installs the linux-xanmod kernel"
   critical: false
